@@ -35,22 +35,34 @@ header {
     background-repeat: no-repeat;
     position: relative;
 }
-.div-5{
-}
-.sample{
-    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
-    height: 100%;
-    background-size: contain;
-}
-.div-5 div{
+.grid-5{
     background-image: url(./images/desktop/image-graphic-design.jpg);
     min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative;
+    
 }
+.grid-6{
+    background-image: url(./images/desktop/image-photography.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sample{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    /* height: 100%; */
+    background-size: contain;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -133,6 +145,8 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+   
 }
 .grid-text h3{
     font-family: var(--fraunces);
