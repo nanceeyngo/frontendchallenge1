@@ -10,13 +10,17 @@
     <title>Document</title>
 </head>
 <body>
+    <a href="#navbar" class="nav-btn">Back to top</a>
     <header>
-        <nav>
+        <nav id="navbar">
             <a href="mypractice.html" class="logo">
                 <img src="./images/logo.svg" alt="logo image">
                 </a>
 
                 <div class="menu-links" id="menu-links">
+                    
+                       
+                    
                     <ul class="navlinks">
                         <li>
                             <a href="#">About</a>
@@ -28,7 +32,9 @@
                             <a href="#">Projects</a>
                         </li>
                     </ul>
-                   <button class="contact">Contact us</button>                
+                   <button class="contact">Contact us</button>
+                   
+                   <span class="close-btn" id="close-btn">&times;</span>
                 </div>
                 
                 <div class="menu-toggle" id="menu-toggle">
@@ -133,6 +139,70 @@
         </div>
         
     </div>
+
+    <div class="image-gallery">
+        
+            <div class="image-gallery-divs">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-milkbottles.jpg"/>
+    
+                    <source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-milkbottles.jpg"/>
+    
+                    <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="Milk Bottles">
+                
+                </picture>
+            </div>
+
+            <div class="image-gallery-divs">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-orange.jpg"/>
+    
+                    <source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-orange.jpg"/>
+    
+                    <img src="./images/desktop/image-gallery-orange.jpg" alt="Orange">
+                
+                </picture>
+            </div>
+
+            <div class="image-gallery-divs">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-cone.jpg"/>
+    
+                    <source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-cone.jpg"/>
+    
+                    <img src="./images/desktop/image-gallery-cone.jpg" alt="Cone">
+                
+                </picture>
+            </div>
+
+            <div class="image-gallery-divs">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./images/desktop/image-gallery-sugarcubes.jpg"/>
+    
+                    <source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-sugar-cubes.jpg"/>
+    
+                    <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="Sugar Cubes">
+                
+                </picture>
+            </div>
+       
+    </div>
+    <footer>
+        <h1>sunnyside</h1>
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+        <div class="socials">
+            <span><i class="fa-brands fa-square-facebook"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-pinterest"></i></span>
+        </div>
+    </footer>
 <script src="./app.js"></script>
 </body>
 </html>
